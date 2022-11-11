@@ -1,0 +1,113 @@
+/* Imports de polices de caractère Google */
+@import url('https://fonts.googleapis.com/css?family=Mochiy Pop One');
+@import url('https://fonts.googleapis.com/css?family=Castoro');
+
+.body {
+    background-color: black;
+}
+
+.main {
+    margin: auto;
+    min-width: 500px;
+    max-width: 1000px;
+    padding: 15px 5px 15px 5px;
+    background-color: rgba(247, 247, 247, 0.688);
+}
+
+.headerLayout {
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.headerLayout img {
+    width: 60px;
+    margin-left: 15px;
+}
+
+.menuLayout {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuLayout a {
+    min-width: 80px;
+    font-size: 1.25em;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+}
+
+.menuLayout a:hover {
+    color: silver;
+    background-color: indigo;
+}
+
+.menuLayout a:active {
+    background-color: dimgray;
+}
+
+.menuLayout .selected {
+    color: mediumpurple;
+    background-color: dimgray;
+}
+
+.content {
+    padding: 20px;
+    font-family: "Mochiy Pop One";
+}
+
+.content img {
+    width: 100%;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 1.1em;
+    font-family: "Castoro";
+}
+
+.image {
+    width: auto;
+}
+
+.video {
+    margin: 0 auto;
+    min-width: 500px;
+    max-width: 560px;
+    min-height: 100%;
+}
+
+.content ul {
+    text-align: justify;
+    font-size: 1.05em;
+    list-style-type: disc;
+    font-family: "Castoro";
+}
+
+.avatarcase {
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+
+.avatar {
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    border: solid;
+    border-radius: 230px;
+    border-width: 5px;
+}
+
+.text {
+    margin-right: 275px;
+}
