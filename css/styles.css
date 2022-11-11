@@ -104,10 +104,10 @@
     background-position: top;
     background-size:cover;
     border: solid;
-    border-radius: 230px;
-    border-width: 5px;
+    border-radius: 1250px;    
 }
 
 .text {
     margin-right: 275px;
+    padding-bottom: 15px;
 }
